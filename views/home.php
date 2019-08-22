@@ -10,19 +10,6 @@
   <title>خدمات و تعمیرات کیماسی</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="">
-  <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
-
-  <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
-  <meta name="twitter:image" content="">
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
   <link href="favicon.ico" rel="shortcut icon">
 
@@ -35,7 +22,7 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  <!-- <link href="lib/animate-css/animate.min.css" rel="stylesheet"> -->
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -43,7 +30,6 @@
 </head>
 
 <body>
-  <div id="preloader"></div>
 
   <!--=== Hero Section =====-->
   <section id="hero">
@@ -63,6 +49,7 @@
       </div>
     </div>
   </section>
+
   <!--=== Header Section =====-->
   <header id="header">
     <div class="container">
@@ -80,6 +67,7 @@
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
+
   <!--===  Services Section =====-->
   <section id="services">
     <div class="container wow fadeInUp">
@@ -132,6 +120,7 @@
       </div>
     </div>
   </section>
+
   <!--===  Contact Section =====-->
   <section id="contact">
     <div class="container wow fadeInUp">
@@ -233,11 +222,21 @@
                 $phone = $_POST['phone'];
                 $message = $_POST['message'];
                 if (empty($nameErr) && empty($phoneErr)){
-                  $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage?chat_id=-1001164606019&text=';
-                  $message = 'نام فرستنده: ' . $name . '%0A' . 'شماره تماس: ' . $phone . '%0A%0A' . $message;
+                  ini_set('default_socket_timeout', 3);
+                  $message = 'نام فرستنده: ' . $name . PHP_EOL . 'شماره تماس: ' . $phone . PHP_EOL . PHP_EOL . $message;
+                  $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage';
+                  $data = array('chat_id' => '-1001164606019', 'text' => $message);
                   try{
-                    ini_set('default_socket_timeout', 4);
-                    $response = json_decode(@file_get_contents($url . $message), true);
+                    $options = array(
+                        'http' => array(
+                            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+                            'method'  => 'POST',
+                            'content' => http_build_query($data)
+                        )
+                    );
+                    $context  = stream_context_create($options);
+                    $response = json_decode(@file_get_contents($url, false, $context), true);
+                    // $response = json_decode(@file_get_contents($url . $message), true);
                     if (!empty($response) && $response["ok"]){
                       echo '<br /><br />';
                       echo 'پیام شما ثبت شد. در اسرع وقت با شما تماس میگیریم.';
@@ -245,6 +244,7 @@
                       throw new Exception("there is some problem with telegram api");
                     }
                   } catch(Exception $e){
+                    // echo $e;
                     echo '<br /><br />';
                     echo 'پیام ثبت نشد. لطفا با شماره موبایل کنار تماس بگیرید.';
                   }
