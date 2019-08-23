@@ -193,6 +193,43 @@
                 $data = htmlspecialchars($data);
                 return $data;
               }
+
+
+              // Check if the form is submitted
+
+              if ( isset( $_POST['submit'] ) )
+              { // retrieve the form data by using the element's name attributes value as key
+                $name = $_POST['name'];
+                $phone = $_POST['phone'];
+                $message = $_POST['message'];
+                if (empty($nameErr) && empty($phoneErr)){
+                  ini_set('default_socket_timeout', 3);
+                  $messageBot = 'نام فرستنده: ' . $name . PHP_EOL . 'شماره تماس: ' . $phone . PHP_EOL . PHP_EOL . $message;
+                  $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage';
+                  try{
+                    $options = array(
+                        'http' => array(
+                            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+                            'method'  => 'POST',
+                            'content' => http_build_query(array('chat_id' => '-1001164606019', 'text' => $messageBot))
+                        )
+                    );
+                    $response = json_decode(@file_get_contents($url, false, stream_context_create($options)), true);
+                    // $response = json_decode(@file_get_contents($url . $message), true);
+                    if (!empty($response) && $response["ok"]){
+                      echo 'پیام شما ثبت شد. در اسرع وقت با شما تماس میگیریم.';
+                      echo '<br /><br />';
+                      $name = $phone = $message = "";
+                    } else{
+                      throw new Exception("there is some problem with telegram api");
+                    }
+                  } catch(Exception $e){
+                    // echo $e;
+                    echo 'پیام ثبت نشد. لطفا با شماره موبایل تماس بگیرید.';
+                    echo '<br /><br />';
+                  }
+                }
+              }
             ?>
             <form action="#contact" method="post" role="form" class="contactForm">
               <div class="form-group">
@@ -213,43 +250,6 @@
               <div class="text-center"><button type="submit" name="submit" value="Submit">ارسال پیام</button></div>
             </form>
 
-            <?php
-              // Check if the form is submitted
-
-              if ( isset( $_POST['submit'] ) )
-              { // retrieve the form data by using the element's name attributes value as key
-                $name = $_POST['name'];
-                $phone = $_POST['phone'];
-                $message = $_POST['message'];
-                if (empty($nameErr) && empty($phoneErr)){
-                  ini_set('default_socket_timeout', 3);
-                  $message = 'نام فرستنده: ' . $name . PHP_EOL . 'شماره تماس: ' . $phone . PHP_EOL . PHP_EOL . $message;
-                  $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage';
-                  try{
-                    $options = array(
-                        'http' => array(
-                            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-                            'method'  => 'POST',
-                            'content' => http_build_query(array('chat_id' => '-1001164606019', 'text' => $message))
-                        )
-                    );
-                    $response = json_decode(@file_get_contents($url, false, stream_context_create($options)), true);
-                    // $response = json_decode(@file_get_contents($url . $message), true);
-                    if (!empty($response) && $response["ok"]){
-                      echo '<br /><br />';
-                      echo 'پیام شما ثبت شد. در اسرع وقت با شما تماس میگیریم.';
-                    } else{
-                      throw new Exception("there is some problem with telegram api");
-                    }
-                  } catch(Exception $e){
-                    // echo $e;
-                    echo '<br /><br />';
-                    echo 'پیام ثبت نشد. لطفا با شماره موبایل کنار تماس بگیرید.';
-                  }
-                }
-                // exit;
-              }
-            ?>
           </div>
         </div>
 
