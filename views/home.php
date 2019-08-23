@@ -204,7 +204,7 @@
                 $message = $_POST['message'];
                 if (empty($nameErr) && empty($phoneErr)){
                   ini_set('default_socket_timeout', 3);
-                  $messageBot = 'نام فرستنده: ' . $name . PHP_EOL . 'شماره تماس: ' . $phone . PHP_EOL . PHP_EOL . $message;
+                  $messageBot = '👤 ' . $name . PHP_EOL . '📞 ' . $phone . PHP_EOL . PHP_EOL . $message;
                   $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage';
                   try{
                     $options = array(
