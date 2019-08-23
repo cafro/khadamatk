@@ -1,6 +1,7 @@
 <?php
 
 require 'vendor/autoload.php';
+$configs = include('config.php');
 
 $router = new AltoRouter();
 $router->setBasePath('');
