@@ -51,11 +51,11 @@
   </section>
 
   <!--=== Header Section =====-->
-  <header id="header">
+  <header id="header" style="height: 80px;">
     <div class="container">
 
       <div id="logo" class="pull-right">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="img/logo.png" style="height: 55px;"/></img></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -225,17 +225,15 @@
                   ini_set('default_socket_timeout', 3);
                   $message = 'نام فرستنده: ' . $name . PHP_EOL . 'شماره تماس: ' . $phone . PHP_EOL . PHP_EOL . $message;
                   $url = 'https://api.telegram.org/bot901686524:AAGOE2Wo54nv4Y5k-0dc0ENGAwkFkkk0Yec/sendMessage';
-                  $data = array('chat_id' => '-1001164606019', 'text' => $message);
                   try{
                     $options = array(
                         'http' => array(
                             'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
                             'method'  => 'POST',
-                            'content' => http_build_query($data)
+                            'content' => http_build_query(array('chat_id' => '-1001164606019', 'text' => $message))
                         )
                     );
-                    $context  = stream_context_create($options);
-                    $response = json_decode(@file_get_contents($url, false, $context), true);
+                    $response = json_decode(@file_get_contents($url, false, stream_context_create($options)), true);
                     // $response = json_decode(@file_get_contents($url . $message), true);
                     if (!empty($response) && $response["ok"]){
                       echo '<br /><br />';
