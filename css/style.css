@@ -349,6 +349,7 @@ margin: 0;
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
+padding-left: 25px;
 position: fixed;
 left: 0;
 top: 0;
