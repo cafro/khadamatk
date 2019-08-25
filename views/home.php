@@ -38,7 +38,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/logo.png" alt="Imperial" width="128" height="128">
+          <img class="" src="img/logo.svg" alt="Imperial" width="256" height="256">
         </div>
 
         <h1>خدمات و تعمیرات کیماسی</h1>
@@ -57,7 +57,7 @@
     <div class="container">
 
       <div id="logo" class="pull-right">
-        <a href="#hero"><img src="img/logo.png" style="height: 55px;"/></img></a>
+        <a href="#hero"><img src="img/logo.svg" style="height: 100px;"/></img></a>
       </div>
 
       <nav id="nav-menu-container">
