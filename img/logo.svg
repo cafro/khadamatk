@@ -4,23 +4,21 @@
 	 viewBox="0 0 413.38 254.51" style="enable-background:new 0 0 413.38 254.51;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D32E2E;stroke:#D32E2E;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#FFFFFF;stroke:#D32E2E;stroke-miterlimit:10;}
-	.st3{fill:#DB5858;stroke:#DB5858;stroke-miterlimit:10;}
-	.st4{fill:#FFFFFF;stroke:#DB5858;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#D32E2E;stroke-miterlimit:10;}
+	.st2{fill:#DB5858;stroke:#DB5858;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#DB5858;stroke-miterlimit:10;}
 </style>
-<rect x="146.93" y="54.83" transform="matrix(-9.914997e-03 -1 1 -9.914997e-03 82.2073 249.3524)" class="st0" width="35.23" height="58.3"/>
-<path class="st1" d="M291.25,254.5c-70.9,0.7-128.94-55.7-129.64-125.98S217.82,0.7,288.72,0"/>
-<path class="st0" d="M182.29,199.56c-36.46-63.92-14.39-145.19,49.3-181.52S376.48,4.07,412.94,67.98"/>
-<path class="st2" d="M188.42,196.07c-34.53-60.52-13.62-137.48,46.68-171.88s137.19-13.23,171.71,47.29"/>
-<path class="st2" d="M193.23,193.32C160.22,135.46,180.2,61.9,237.85,29.01S369,16.36,402.01,74.22"/>
-<circle class="st0" cx="297.73" cy="133.53" r="112.88"/>
-<circle class="st2" cx="297.73" cy="133.53" r="76.64"/>
-<circle class="st3" cx="297.73" cy="133.53" r="38.32"/>
-<circle class="st4" cx="284.31" cy="119.39" r="8.68"/>
-<circle class="st4" cx="284.58" cy="146.95" r="8.68"/>
-<circle class="st4" cx="310.59" cy="119.13" r="8.68"/>
-<circle class="st4" cx="310.86" cy="146.69" r="8.68"/>
-<path class="st0" d="M130.56,60.01l0.48,48.6l-116.42,1.15c-7.61,0.08-13.84-6.03-13.92-13.64L0.5,75.08
-	c-0.08-7.61,6.03-13.84,13.64-13.92L130.56,60.01z"/>
+<polygon class="st0" points="190.29,71.41 173.12,115.24 137.72,115.59 137.28,71.92 172.68,71.58 "/>
+<path class="st0" d="M194.79,195.83c-32.88-57.64-12.98-130.94,44.46-163.71s130.66-12.6,163.55,45.04"/>
+<path class="st1" d="M200.31,192.68c-31.14-54.58-12.29-123.98,42.1-155.01s123.72-11.93,154.86,42.65"/>
+<path class="st1" d="M204.65,190.21C174.88,138.03,192.9,71.68,244.9,42.02S363.18,30.62,392.94,82.8"/>
+<circle class="st0" cx="298.9" cy="136.29" r="101.8"/>
+<circle class="st1" cx="298.9" cy="136.29" r="69.12"/>
+<circle class="st2" cx="298.9" cy="136.29" r="34.56"/>
+<circle class="st3" cx="286.79" cy="123.53" r="7.83"/>
+<circle class="st3" cx="287.04" cy="148.39" r="7.83"/>
+<circle class="st3" cx="310.5" cy="123.3" r="7.83"/>
+<circle class="st3" cx="310.74" cy="148.15" r="7.83"/>
+<path class="st0" d="M132.35,69.08l0.48,48.6l-106.16,1.05c-7.61,0.08-13.84-6.03-13.92-13.64l-0.21-21.04
+	c-0.08-7.61,6.03-13.84,13.64-13.92L132.35,69.08z"/>
 </svg>
