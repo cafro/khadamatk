@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="keywords" content="ساخت و نصب درب و پنجره ساده، فرفورژه و آکاردئونی حفاظ و نرده پارکینگ سایبان شیروانی">
-  <meta name="Description" content="داود کیماسی
+  <meta name="Description"
+    content="داود کیماسی
   خدمات و تعمیرات درب، پنجره، حفاظ، نرده، پارکینگ، سایبان و شیروانی | ساخت و نصب درب و پنجره ساده، فرفورژه و آکاردئونی حفاظ و نرده پارکینگ سایبان شیروانی">
-  <title>خدمات و تعمیرات کیماسی</title>
+  <title>خدمات و تعمیرات کیماسی | درب، پنجره، حفاظ، نرده، پارکینگ، سایبان و شیروانی</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
@@ -30,14 +31,14 @@
 
 <body>
 
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
 
   <!--=== Hero Section =====-->
   <section id="hero">
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/logo.svg" alt="Imperial" width="256" height="256">
+          <img class="" src="img/logo.svg" alt="لوگوی خدمات کیماسی" width="200" height="200">
         </div>
 
         <h1>خدمات و تعمیرات کیماسی</h1>
@@ -56,13 +57,14 @@
     <div class="container">
 
       <div id="logo" class="pull-right">
-        <a href="#hero"><img src="img/logo.svg" style="height: 100px;"/></img></a>
+        <a href="#hero"><img src="img/logo.svg" alt="لوگوی خدمات کیماسی" width="100" height="200" /></img></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">صفحه اصلی</a></li>
           <li><a href="#services">خدمات</a></li>
+          <li><a href="#portfolio">نمونه کارها</a></li>
           <li><a href="#contact">تماس با ما</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -118,6 +120,96 @@
           <h4 class="service-title">شیروانی</h4>
           <p class="service-description">ساخت و نصب شیروانی</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--=== Porfolio Section =====-->
+  <section id="portfolio">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title">نمونه کارها</h3>
+          <div class="section-title-divider"></div>
+          <!-- <p class="section-description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+            طراحان گرافیک است.</p> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار1</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار2</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار3</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار4</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار5</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار6</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار7</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
+            <div class="details">
+              <h4>نمونه کار8</h4>
+              <span>دونو آلفرد پارس</span>
+            </div>
+          </a>
+        </div>
+
       </div>
     </div>
   </section>
