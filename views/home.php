@@ -11,7 +11,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="favicon.png" rel="shortcut icon">
+  <link rel="icon" type="image/png" href="favicon.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
@@ -139,73 +139,73 @@
 
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" >
             <div class="details">
-              <h4>نمونه کار1</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>پارکینگ</h4>
+              <span>مخصوص ادارات، آپارتمان</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" >
             <div class="details">
-              <h4>نمونه کار2</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>پارکینگ</h4>
+              <span>ویلایی</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" >
             <div class="details">
-              <h4>نمونه کار3</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>پارکینگ</h4>
+              <span>جهت استفاده در اماکن عمومی</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" >
             <div class="details">
-              <h4>نمونه کار4</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>پارکینگ</h4>
+              <span>برای فضا های کوچک</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" >
             <div class="details">
-              <h4>نمونه کار5</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>پارکینگ</h4>
+              <span>برای فضا های کوچک</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" >
             <div class="details">
-              <h4>نمونه کار6</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>درب فلزی</h4>
+              <span>جهت استفاده خانه ویلایی</span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" >
             <div class="details">
-              <h4>نمونه کار7</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>سایه بان</h4>
+              <span></span>
             </div>
           </a>
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" >
             <div class="details">
-              <h4>نمونه کار8</h4>
-              <span>دونو آلفرد پارس</span>
+              <h4>سایه بان</h4>
+              <span></span>
             </div>
           </a>
         </div>
