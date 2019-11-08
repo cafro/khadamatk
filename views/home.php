@@ -365,6 +365,7 @@
             <a hidden href="http://www.2mihan.com">تبلیغات رایگان</a>
             <a hidden href="http://www.tanhabacklinks.ir">تبادل لینک</a>
             <a hidden href="http://advertisingisfahan.ir/">طراحی سایت اصفهان</a>
+            <a hidden href="http://www.tanhamusic.net">دانلود آهنگ جدید</a>
           </div>
         </div>
       </div>
