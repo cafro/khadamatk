@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 $configs = include('config.php');
-$mongoClient = new \MongoClient(); // legacy class!
+// $mongoClient = new \MongoClient();
 
 
 $router = new AltoRouter();
