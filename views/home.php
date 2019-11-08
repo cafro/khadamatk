@@ -360,6 +360,7 @@
           </div>
           <div class="credits">
             قالب تک صفحه ای <a href="https://barnamenevisan.org/"> امپریال</a>
+            <a hidden href="https://aradmusic.ir/">دانلود آهنگ جدید</a>
           </div>
         </div>
       </div>
