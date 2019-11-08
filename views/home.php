@@ -139,7 +139,7 @@
 
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);">
             <div class="details">
               <h4>پارکینگ</h4>
               <span>مخصوص ادارات، آپارتمان</span>
@@ -148,7 +148,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);">
             <div class="details">
               <h4>پارکینگ</h4>
               <span>ویلایی</span>
@@ -157,7 +157,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);">
             <div class="details">
               <h4>پارکینگ</h4>
               <span>جهت استفاده در اماکن عمومی</span>
@@ -166,7 +166,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);">
             <div class="details">
               <h4>پارکینگ</h4>
               <span>برای فضا های کوچک</span>
@@ -175,7 +175,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);">
             <div class="details">
               <h4>پارکینگ</h4>
               <span>برای فضا های کوچک</span>
@@ -184,7 +184,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);">
             <div class="details">
               <h4>درب فلزی</h4>
               <span>جهت استفاده خانه ویلایی</span>
@@ -193,7 +193,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);">
             <div class="details">
               <h4>سایه بان</h4>
               <span></span>
@@ -202,7 +202,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" >
+          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);">
             <div class="details">
               <h4>سایه بان</h4>
               <span></span>
