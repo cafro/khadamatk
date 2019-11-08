@@ -361,7 +361,7 @@
           <div class="credits">
             قالب تک صفحه ای <a href="https://barnamenevisan.org/"> امپریال</a>
             <a hidden href="https://aradmusic.ir/">دانلود آهنگ جدید</a>
-            <a href="http://link.qazvin-solar-ups.ir/links.php">تبادل لینک اتوماتیک</a>
+            <a hidden href="http://link.qazvin-solar-ups.ir/links.php">تبادل لینک اتوماتیک</a>
             <a hidden href="http://www.2mihan.com">تبلیغات رایگان</a>
             <a hidden href="http://www.tanhabacklinks.ir">تبادل لینک</a>
             <a hidden href="http://advertisingisfahan.ir/">طراحی سایت اصفهان</a>
