@@ -361,7 +361,7 @@
           <div class="credits">
             قالب تک صفحه ای <a href="https://barnamenevisan.org/"> امپریال</a>
             <a hidden href="https://aradmusic.ir/">دانلود آهنگ جدید</a>
-            <a hidden href="http://www.tilak.ir/internet-store/خرید-پستی-اینترنتی-ساعت-دیواری" title="خرید ساعت دیواری " target="_blank">.خرید ساعت دیواری .</a>
+            <a hidden href="http://add-links.ir">تبادل لینک با وب سایت ها</a>
           </div>
         </div>
       </div>
