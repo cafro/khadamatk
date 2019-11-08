@@ -364,6 +364,7 @@
             <a href="http://link.qazvin-solar-ups.ir/links.php">تبادل لینک اتوماتیک</a>
             <a hidden href="http://www.2mihan.com">تبلیغات رایگان</a>
             <a hidden href="http://www.tanhabacklinks.ir">تبادل لینک</a>
+            <a hidden href="http://advertisingisfahan.ir/">طراحی سایت اصفهان</a>
           </div>
         </div>
       </div>
